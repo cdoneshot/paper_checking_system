@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>paper_checking</RootNamespace>
     <AssemblyName>paper_checking</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -193,8 +193,9 @@
     <Reference Include="pdfbox-app">
       <HintPath>.\pdfbox-app.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Doc, Version=10.8.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
-      <HintPath>..\packages\FreeSpire.Doc.10.8.0\lib\net40\Spire.Doc.dll</HintPath>
+    <Reference Include="Spire.Doc, Version=11.7.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spire.Doc.dll</HintPath>
     </Reference>
     <Reference Include="Spire.Pdf, Version=8.8.6.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
       <HintPath>..\packages\FreeSpire.Doc.10.8.0\lib\net40\Spire.Pdf.dll</HintPath>

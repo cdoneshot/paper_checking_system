@@ -8,6 +8,8 @@ namespace paper_checking.PaperCheck.Convert
         public override string ConvertToString(string path, string blockText)
         {
             Spire.Doc.Document doc = null;
+
+
             string text = null;
             try
             {
