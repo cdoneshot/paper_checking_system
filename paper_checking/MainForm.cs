@@ -405,6 +405,16 @@ namespace paper_checking
         {
             Process.Start("https://xincheck.com/?id=28");
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
    
 }

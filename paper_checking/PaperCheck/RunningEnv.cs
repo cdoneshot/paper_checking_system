@@ -13,6 +13,7 @@ namespace paper_checking
         public static class ProgramParam
         {
             public static readonly string SecurityKey = "Ubzrfax@3&Yl1rf&cw7ZE4zXsm8ZdIAtyJZ71L48f3yW*TXzylZq7Hqb1moG*xeQQnkFdkqYYXFfyPAS$CeETMw#1qDAPJehBM8";
+            //public static readonly string SecurityKey = "";
             public static readonly int MaxWords = 99998;
             public static readonly string TxtPaperSourcePath = "txtPaperSource" + Path.DirectorySeparatorChar;
             public static readonly string ToCheckTxtPaperPath = "toCheckTxtPaper" + Path.DirectorySeparatorChar;
